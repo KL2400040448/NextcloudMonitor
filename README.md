@@ -1,32 +1,34 @@
-# 🌐 Nextcloud Server Connectivity Test
+<h1 align="center">🌐 Nextcloud Server Connectivity Test</h1>
 
-A simple PowerShell script to check the **network and web availability** of your Nextcloud server.
-
----
-
-## 🚀 Features
-
-✅ Ping test – Verifies if the server is reachable on your local network  
-✅ Web test – Checks if the Nextcloud web interface responds (HTTP 200)  
-✅ Color-coded status output (Green = OK, Yellow = Warning, Red = Error)  
-✅ Lightweight and runs continuously if desired  
+<p align="center">
+  <b>A simple PowerShell script to monitor the network and web availability of a Nextcloud server.</b><br><br>
+  <img src="https://img.shields.io/badge/Language-PowerShell-blue?style=flat-square">
+  <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square">
+  <img src="https://img.shields.io/github/last-commit/KL2400040448/NextcloudMonitor?style=flat-square">
+  <img src="https://img.shields.io/github/repo-size/KL2400040448/NextcloudMonitor?style=flat-square">
+</p>
 
 ---
 
-## ⚙️ How It Works
+## 🚀 Overview
 
-1. The script pings your server to test **basic connectivity**.  
-2. If the ping succeeds, it sends an HTTP request to confirm **web access**.  
-3. Results are displayed in color for easy reading.
+This PowerShell script continuously checks the **network reachability** and **web response** of a Nextcloud server.  
+It’s perfect for quick diagnostics or uptime monitoring within your local or private cloud setup.
 
 ---
 
-## 💻 Run the Script
+## ⚙️ Features
 
-```powershell
-# Clone or download the repository
-git clone https://github.com/KL2400040448/NextcloudMonitor.git
-cd NextcloudMonitor
+- ✅ **Ping Test:** Verifies if the server is reachable on the network.  
+- 🌐 **Web Response Check:** Tests if the Nextcloud web interface responds (HTTP 200).  
+- 🧩 **Color-Coded Output:** Easy-to-read console messages (Green = OK, Yellow = Warning, Red = Error).  
+- 🔁 **Simple & Lightweight:** Ideal for administrators, IT students, and self-hosters.  
 
-# Run the PowerShell script
-.\NextcloudMonitor.ps1
+---
+
+## 💻 How to Use
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/KL2400040448/NextcloudMonitor.git
+   cd NextcloudMonitor
