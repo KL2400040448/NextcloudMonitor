@@ -32,3 +32,9 @@ It’s perfect for quick diagnostics or uptime monitoring within your local or p
    ```bash
    git clone https://github.com/KL2400040448/NextcloudMonitor.git
    cd NextcloudMonitor
+## 🖼️ Nextcloud Login Portal
+
+Below is a screenshot of the actual Nextcloud instance used for testing:
+
+![Nextcloud Login Portal](photo_2025-11-03_07-51-37.jpg)
+
