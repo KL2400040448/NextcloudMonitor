@@ -32,6 +32,18 @@ It’s perfect for quick diagnostics or uptime monitoring within your local or p
    ```bash
    git clone https://github.com/KL2400040448/NextcloudMonitor.git
    cd NextcloudMonitor
+## 🧾 License
+
+This project is licensed under the **MIT License** — see the [LICENSE](./LICENSE) file for details.
+
+You are free to:
+- ✅ Use this project for personal or commercial purposes  
+- ✏️ Modify or distribute it under the same license  
+- ⭐ Credit the original author (*King, 2025*) when reusing the code  
+
+> The software is provided *"as is"*, without warranty of any kind.  
+> The author is not liable for any damages or issues caused by its use.
+
 ## 🖼️ Nextcloud Login Portal
 
 Below is a screenshot of the actual Nextcloud instance used for testing:
